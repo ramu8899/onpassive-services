@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* Basic styling */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+            overflow: hidden;
+        }
+
+        .section {
+            padding: 30px;
+            background: #f4f4f4;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .team, .history {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member, .history-item {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .team-member img, .history-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            .team-member, .history-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>About Us</h1>
+        <p>Learn more about who we are and what we do</p>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="section container">
+        <h2>Who We Are</h2>
+        <p>We are a passionate team dedicated to providing exceptional services and solutions for our clients. Our company has a rich history of innovation, integrity, and a commitment to excellence in everything we do.</p>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="section container">
+        <h2>Our Mission</h2>
+        <p>Our mission is to empower our clients by delivering high-quality solutions that foster growth and success. We strive to make a positive impact in the communities we serve, driven by values of integrity, collaboration, and excellence.</p>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section container">
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="https://cdn.thenationonlineng.net/wp-content/uploads/2022/06/16073310/Ash-Mufareh.jpg" alt="Team Member 1">
+                <h3>mr.Ash</h3>
+                <p>CEO & Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnaSdNzvxhLO3fEKGwa1PEnmxsvS7QctsgnQ&s" alt="Team Member 2">
+                <h3> Mohamed Kamal</h3>
+                <p>Chief Operations Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhI3GsRzkZVCU0IDL1Mb2MOATDqKmQNq6Iw&s" alt="Team Member 3">
+                <h3>Sarah Lee</h3>
+                <p>Head of Marketing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company History Section -->
+    <section class="section container">
+        <h2>Our History</h2>
+        <div class="history">
+            <div class="history-item">
+                <h3>2005</h3>
+                <p>Founded as a small startup with a vision to innovate and bring new solutions to the industry.</p>
+            </div>
+            <div class="history-item">
+                <h3>2018</h3>
+                <p>Expanded into new markets and grew our team to accommodate a rapidly growing client base.</p>
+            </div>
+            <div class="history-item">
+                <h3>2024</h3>
+                <p>Celebrated 6 years of success with a global presence and a commitment to excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
